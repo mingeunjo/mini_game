@@ -1,25 +1,15 @@
+@font-face {
+    font-family: 'BagelFatOne-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_JAMO@1.0/BagelFatOne-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
 
-        div {
-            font-size: 2rem;
-            text-align: center;
-            color: white;
-            background: black;
-            border-radius: 1rem;
-            padding: 2rem;
-            transition: all .5s ease;
-        }
+*{
+    font-family: 'BagelFatOne-Regular';
+    /* (전체선택자) 사용 시, 모든 글자가 해당 폰트로 나오기 때문에, 본문용 폰트를 작성하는 것을 추천!
 
-        .pressed {
-            background: tomato;
-            transform: scale(1.2);
-        }
-
-        body {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            align-content: center;
-            grid-gap: 1rem;
-            padding: 1rem;
-            height: 100vh;
-            background: skyblue;
-        }
+        제목용 폰트는 따로 class를 생성해서 설정하는 것을 추천
+    
+    */
+}
